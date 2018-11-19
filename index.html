@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Smooth scrolling met Javacsript</title>
+    <meta name="author" content="Yasien Elsayed">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stijlHorScript.css">
+  </head>
+
+  <body>
+    <nav class="nav">
+      <ul class="nav__alle-items">
+        <li class="nav__menuitem">rood <i class="nav__icon fas fa-eye"></i></li>
+        <li class="nav__menuitem">groen <i class="nav__icon fas fa-eye"></i></li>
+        <li class="nav__menuitem">geel <i class="nav__icon fas fa-eye"></i></li>
+        <li class="nav__menuitem">blauw <i class="nav__icon fas fa-eye"></i></li>
+        <li class="nav__menuitem">oranje <i class="nav__icon fas fa-eye"></i></li>
+      </ul>
+    </nav>
+      <main class="inhoud">
+        <section class="inhoud__pagina inhoud--rood">
+          <h3 class="inhoud__kop">Rood</h3>
+          <p class="inhoud__tekst">
+            Dit is de rode pagina.
+          </p>
+        </section>
+
+
+          <section class="inhoud__pagina inhoud--groen inhoud__pagina--veel">
+            <h3 class="inhoud__groen">Groen</h3>
+            <p class="inhoud__tekst">
+              Dit is de groene pagina.
+            </p>
+             <div>
+              <img src="https://source.unsplash.com/1600x900/?cold,winter" width="800" height="400" alt="cold">
+              <img src="https://source.unsplash.com/1600x900/?nature,water" width="800" height="400" alt="nature">
+              <img src="https://source.unsplash.com/1600x900/?sun,summer" width="800" height="400" alt="summer">
+             </div>
+          </section>
+
+            <section class="inhoud__pagina inhoud--geel">
+              <h3 class="inhoud__kop">Geel</h3>
+              <p class="inhoud__tekst">
+                Dit is de gele pagina.
+              </p>
+            </section>
+
+            <section class="inhoud__pagina inhoud--blauw">
+              <h3 class="inhoud__kop">Blauw</h3>
+              <p class="inhoud__tekst">
+                Dit is de blauwe pagina.
+              </p>
+            </section>
+
+            <section class="inhoud__pagina inhoud--oranje">
+              <h3 class="inhoud__kop">Oranje</h3>
+              <p class="inhoud__tekst">
+                Dit is de oranje pagina.
+              </p>
+              <p id="inhoud__validatie">
+                <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                      <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+                  <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                      <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+                  </a>
+              </p>
+            </section>
+      </main>
+      <script src="js/horPage.js"></script>
+  </body>
+</html>
