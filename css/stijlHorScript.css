@@ -44,6 +44,20 @@ nav{
 .nav__menuitem.nav--actief .nav__icon{
   color: #fff;
 }
+
+/* de pijlen */
+.nav__pijlen{
+  color: #333;
+  font-size: 2em;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 0 .2em;
+}
+
+.nav__pijl:hover{
+  color: #fff;
+  cursor: pointer;
+}
 /* de pagina's */
 
 .inhoud{
